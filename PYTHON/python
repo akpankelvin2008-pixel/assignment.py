@@ -1,0 +1,71 @@
+name ="kelvin"
+num = 25
+is_name=True
+print(type(name))
+print(type(num))
+print(type(is_name))
+
+ # Perform arithmetic operations
+a = 10
+b = 3
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+
+# Create two integer variables
+num1 = 10
+num2 = 5
+print(num1 == num2)
+print(num1 != num2)
+print(num1 > num2)
+print(num1 < num2)
+print(num1 >= num2)
+print(num1 <= num2)
+
+# Display the values
+is_logged_in = True
+is_admin = False
+print("is_logged_in:", is_logged_in)
+print("is_admin:", is_admin)
+
+
+# Demonstrate logical operators
+is_logged_in = True
+is_admin = False
+
+#("AND Operator:")
+print("is_logged_in and is_admin =", is_logged_in and is_admin)
+print("- Returns True only if both values are True\n")
+
+#("OR Operator:")
+print("is_logged_in or is_admin =", is_logged_in or is_admin)
+print("- Returns True if at least one value is True\n")
+
+#("NOT Operator:")
+print("not is_logged_in =", not is_logged_in)
+print("not is_admin =", not is_admin)
+
+# Ask the user to enter a score
+score = int(input("Enter your score (0-100): "))
+if 90 <= score <= 100:
+    print("Grade Classification: Excellent")
+elif 70 <= score <= 89:
+    print("Grade Classification: Good")
+elif 50 <= score <= 69:
+    print("Grade Classification: Average")
+elif 0 <= score <= 49:
+    print("Grade Classification: Fail")
+else:
+    print("Invalid score! Please enter a value between 0 and 100.")
+
+# Check if the number is even
+for number in range(1, 21):
+    if number % 2 == 0:  
+        print(number)
+
+
+
